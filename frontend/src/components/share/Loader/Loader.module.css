@@ -1,0 +1,27 @@
+.cardWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+
+}
+
+.message{
+ font-weight: bold;
+ font-size: 22px;
+ margin-top: 20px;
+}
+
+.spinner{
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.bottomPara{
+   composes : cardWrapper from '../../../pages/Steps/StepPhoneEmail/StepPhoneEmail.module.css'
+}

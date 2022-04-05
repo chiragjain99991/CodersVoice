@@ -1,0 +1,59 @@
+.cardWrapper{
+    background: #1d1d1d;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.speakers{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 20px 0px;
+}
+.speakersImages img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #20bd5f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #1d1d1d;
+    
+}
+.speakersImages img:last-child{
+    top: 20px;
+    left: 20px;
+}
+
+.speakersNames{
+    margin-left: 100px;
+
+}
+.nameWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.nameWrapper span{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.peopleCount{
+    text-align: right;
+}
+.peopleCount span{
+    margin-right:5px;
+    font-weight: bold;
+}
+
+.singleSpeaker .speakersImages img{
+    position: initial;
+}
+.singleSpeaker .speakersNames{
+    margin-left: 20px;
+}

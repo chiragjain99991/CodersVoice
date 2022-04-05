@@ -1,0 +1,46 @@
+.cardWrapper{
+    composes : cardWrapper from '../StepPhoneEmail/StepPhoneEmail.module.css';
+    margin-bottom: 0px !important;
+}
+
+.actionButton{
+    composes : actionButton from '../StepPhoneEmail/StepPhoneEmail.module.css';
+    margin-top: 0px !important;
+}
+
+.bottomPara{
+    composes : bottomPara from '../StepPhoneEmail/StepPhoneEmail.module.css';
+    text-align: center;
+    width: 70%;
+    color: #c4c5c5;
+    margin-bottom: 20px;
+ }
+
+ .avatarWrapper{
+     width: 110px;
+     height: 110px;
+     border-radius: 50%;
+     border: 6px solid #0077ff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+ }
+
+ .avatarImg{
+     height: 90%;
+     width: 90%;
+     object-fit: cover;
+ }
+
+ .avatarInput{
+     display: none;
+ }
+
+ .avatarLabel{
+     color: #0077ff;
+     display: inline-block;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     cursor: pointer;
+ }
